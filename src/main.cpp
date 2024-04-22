@@ -23,7 +23,7 @@ class $modify(MyMenuLayer, MenuLayer) {
 		auto menu = this->getChildByID("bottom-menu");
 		menu->addChild(crashButton);
 
-		crashButton->setID("crash-button"_spr);
+		crashButton->setID("my-button"_spr);
 
 		menu->updateLayout();
 
